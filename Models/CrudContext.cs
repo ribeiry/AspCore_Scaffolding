@@ -18,7 +18,7 @@ namespace AspCore_Scaffolding
         public virtual DbSet<CadastroDb> CadastroDb { get; set; }
         public virtual DbSet<Empresas> Empresas { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+     /*   protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
@@ -26,7 +26,7 @@ namespace AspCore_Scaffolding
                 optionsBuilder.UseSqlServer("Data Source=PBR007001-13400\\SQLEXPRESS;Initial Catalog=Crud;Integrated Security=True");
             }
         }
-
+*/
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<CadastroDb>(entity =>

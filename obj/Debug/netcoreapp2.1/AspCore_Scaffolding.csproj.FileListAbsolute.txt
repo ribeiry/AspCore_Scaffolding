@@ -30,3 +30,8 @@ C:\Users\jaribeiro\Documents\GitHub\AspCore_Scaffolding\obj\Debug\netcoreapp2.1\
 C:\Users\jaribeiro\Documents\GitHub\AspCore_Scaffolding\obj\Debug\netcoreapp2.1\AspCore_Scaffolding.dll
 C:\Users\jaribeiro\Documents\GitHub\AspCore_Scaffolding\obj\Debug\netcoreapp2.1\AspCore_Scaffolding.pdb
 C:\Users\jaribeiro\Documents\GitHub\AspCore_Scaffolding\obj\Debug\netcoreapp2.1\AspCore_Scaffolding.csproj.CopyComplete
+C:\Users\jaribeiro\Documents\GitHub\AspCore_Scaffolding\obj\Debug\netcoreapp2.1\Razor\Views\Empresa\Create.g.cshtml.cs
+C:\Users\jaribeiro\Documents\GitHub\AspCore_Scaffolding\obj\Debug\netcoreapp2.1\Razor\Views\Empresa\Delete.g.cshtml.cs
+C:\Users\jaribeiro\Documents\GitHub\AspCore_Scaffolding\obj\Debug\netcoreapp2.1\Razor\Views\Empresa\Details.g.cshtml.cs
+C:\Users\jaribeiro\Documents\GitHub\AspCore_Scaffolding\obj\Debug\netcoreapp2.1\Razor\Views\Empresa\Edit.g.cshtml.cs
+C:\Users\jaribeiro\Documents\GitHub\AspCore_Scaffolding\obj\Debug\netcoreapp2.1\Razor\Views\Empresa\Index.g.cshtml.cs
