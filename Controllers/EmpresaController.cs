@@ -53,7 +53,7 @@ namespace AspCore_Scaffolding.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdEmpresa,NomeEmpresa,Cnpj,Endereco")] Empresas empresas)
+        public async Task<IActionResult> Create([Bind("IdEmpresa,NomeEmpresa,cnpjEmpresa,Endereco,numero")] Empresas empresas)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace AspCore_Scaffolding.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdEmpresa,NomeEmpresa,Cnpj,Endereco")] Empresas empresas)
+        public async Task<IActionResult> Edit(int id, [Bind("IdEmpresa,NomeEmpresa,cnpjEmpresa,Endereco,numero")] Empresas empresas)
         {
             if (id != empresas.IdEmpresa)
             {

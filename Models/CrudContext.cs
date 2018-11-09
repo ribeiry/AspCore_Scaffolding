@@ -58,7 +58,15 @@ namespace AspCore_Scaffolding
                     .HasColumnName("idEmpresa")
                     .ValueGeneratedNever();
 
-                entity.Property(e => e.Cnpj).HasColumnName("cnpj");
+                entity.Property(e => e.cnpjEmpresa)
+                .HasColumnName("cnpjEmpresa")
+                .HasMaxLength(50);
+
+
+                entity.Property(e => e.numero)
+                .IsRequired()
+                .HasColumnName("numero");
+
 
                 entity.Property(e => e.Endereco)
                     .IsRequired()
